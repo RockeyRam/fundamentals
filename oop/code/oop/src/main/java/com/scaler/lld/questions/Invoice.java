@@ -27,8 +27,9 @@ public class Invoice {
         System.out.println("Total: " + total);
     }
 
-    public void saveToFile(String filename) {
+    // saving a file is not a responsibility of Invoice. We have to move this to new class
+    /*public void saveToFile(String filename) {
         // Creates a file with given name and writes the invoice
-    }
+    }*/
 
 }
